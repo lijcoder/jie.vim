@@ -80,7 +80,7 @@ set statusline=%!MyStatusline()
 set ruler               " 
 
 " 编辑文件编码、格式等配置
-set fileformat=unix     " 设置文件的换行符为 "\n"
+" set fileformat=unix     " 设置文件的换行符为 "\n"
 set shiftwidth=4        " 
 set softtabstop=4       " 
 set tabstop=4           " 
