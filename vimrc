@@ -26,7 +26,7 @@ call plug#end()
 " 配置函数封装#开始
 """"""""""""""""""""""""""""""""""""""""""
 function! MyStatusline()
-    return '[%{jieFunc#mode()}]%t%m%h%r%w%=[%p%%,%lL,%cC,%LALL]%y[%{&fileformat}][%{&fileencoding}]'
+    return '[%{jieFunc#mode_upper()}]%t%m%h%r%w%=[%p%%,%lL,%cC,%LALL]%y[%{&fileformat}][%{&fileencoding}]'
 endfunction
 """"""""""""""""""""""""""""""""""""""""""
 " 配置函数封装#结束
