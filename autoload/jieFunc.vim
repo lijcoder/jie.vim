@@ -15,5 +15,3 @@ let s:_statusline = {
 function! jieFunc#mode() abort
     return get(s:_statusline.mode_map, mode(), '')
 endfunction
-
-echo jieFunc#mode()
